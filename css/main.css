@@ -326,12 +326,12 @@ button {
   fill: #ffffff;
 }
 
-.portfolio {
-  background-color: aquamarine;
+.about {
+  background-color: rgba(176, 85, 85, 0.63);
 }
 
-.about {
-  background-color: coral;
+.portfolio {
+  background-color: aquamarine;
 }
 
 .services {
