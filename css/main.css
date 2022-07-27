@@ -272,6 +272,18 @@ img {
   height: auto;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 0;
+  display: inline-flex;
+  border: none;
+  background-color: transparent;
+}
+
 .portfolio {
   background-color: aquamarine;
 }
