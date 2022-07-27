@@ -275,6 +275,7 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 button {
@@ -282,6 +283,47 @@ button {
   display: inline-flex;
   border: none;
   background-color: transparent;
+}
+
+.header {
+  min-height: 150px;
+  background: rgba(183, 76, 76, 0.42);
+  letter-spacing: 0.175em;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  display: inline-block;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.38;
+  color: #000000;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__item {
+  display: inline-block;
+  padding: 63px 0;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.47;
+  color: #ffffff;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 63px;
+}
+.navigation__icon {
+  fill: #ffffff;
 }
 
 .portfolio {
@@ -306,4 +348,8 @@ button {
 
 .footer {
   background-color: crimson;
+}
+
+img {
+  width: 100px;
 }/*# sourceMappingURL=main.css.map */

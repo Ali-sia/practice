@@ -1,6 +1,8 @@
 @import './base/normalise';
+@import './units/variables';
 @import './base/common';
 @import './button';
+@import './header';
 
 .portfolio {
   background-color: aquamarine;
@@ -19,4 +21,7 @@
 }
 .footer {
   background-color: crimson;
+}
+img {
+  width: 100px;
 }
