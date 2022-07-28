@@ -1,0 +1,18 @@
+.social-list {
+  display: flex;
+
+  &__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &__icon {
+    fill: $color-social-link;
+
+    transition: fill 250ms linear;
+  }
+
+  &__link:hover &__icon,
+  &__link:focus &__icon {
+    fill: $color-main-light;
+  }
+}

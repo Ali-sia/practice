@@ -2,7 +2,7 @@
   min-height: 150px;
 
   background-color: $background-color-header;
-  letter-spacing: 0.175em;
+  letter-spacing: 0.245em;
 }
 
 .main-navigation {
@@ -26,9 +26,6 @@
   justify-content: space-between;
   align-items: center;
 
-  // &__item {
-  // }
-
   &__item:not(:last-child) {
     margin-right: 63px;
   }
@@ -45,8 +42,8 @@
     padding: 63px 0;
 
     font-weight: 700;
-    font-size: 17px;
-    line-height: 1.47;
+    font-size: 24px;
+    line-height: 1.5;
     color: $color-main-light;
 
     transition: color 250ms linear;
