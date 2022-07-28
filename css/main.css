@@ -293,6 +293,7 @@ button {
   display: inline-flex;
   border: none;
   background-color: transparent;
+  fill: #341616;
 }
 
 .title {
@@ -473,4 +474,51 @@ button {
   display: flex;
   flex-wrap: wrap;
   padding: 0 60px;
+}
+
+.product {
+  padding: 63px 0;
+  background-color: rgba(192, 105, 77, 0.47);
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+}
+.card-list__item {
+  position: relative;
+  padding: 70px 110px;
+  max-width: 575px;
+  background-color: #ffffff;
+}
+.card-list__item:not(:last-child) {
+  margin-right: 40px;
+}
+.card-list__text {
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.12em;
+}
+.card-list__link {
+  width: 260px;
+  height: 65px;
+  color: #000000;
+  background-color: rgba(192, 105, 77, 0.47);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  border-radius: 9px;
+  transition: color 250ms linear, background-color 250ms linear;
+}
+.card-list__link:hover, .card-list__link:focus {
+  color: #ffffff;
+  background-color: rgba(176, 85, 85, 0.63);
+}
+.card-list__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-20px, 20px);
 }/*# sourceMappingURL=main.css.map */
