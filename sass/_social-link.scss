@@ -15,4 +15,9 @@
   &__link:focus &__icon {
     fill: $color-main-light;
   }
+
+  &__link--footer:hover &__icon,
+  &__link--footer:focus &__icon {
+    fill: $color-hover;
+  }
 }
