@@ -1,0 +1,14 @@
+.title {
+  color: $color-main-dark;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.52;
+
+  &--light {
+    color: $color-main-light;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+}

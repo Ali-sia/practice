@@ -285,9 +285,22 @@ button {
   background-color: transparent;
 }
 
+.title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.52;
+}
+.title--light {
+  color: #ffffff;
+}
+.title--centered {
+  text-align: center;
+}
+
 .header {
   min-height: 150px;
-  background: rgba(183, 76, 76, 0.42);
+  background-color: rgba(183, 76, 76, 0.42);
   letter-spacing: 0.175em;
 }
 
@@ -311,45 +324,32 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-.navigation__item {
+.navigation__item:not(:last-child) {
+  margin-right: 63px;
+}
+.navigation__icon {
+  fill: #ffffff;
+  transition: fill 250ms linear;
+}
+.navigation__link {
   display: inline-block;
   padding: 63px 0;
   font-weight: 700;
   font-size: 17px;
   line-height: 1.47;
   color: #ffffff;
+  transition: color 250ms linear;
 }
-.navigation__item:not(:last-child) {
-  margin-right: 63px;
+.navigation__link:hover, .navigation__link:focus {
+  color: rgba(176, 85, 85, 0.63);
 }
-.navigation__icon {
-  fill: #ffffff;
+.navigation__link:hover .navigation__icon, .navigation__link:focus .navigation__icon {
+  fill: rgba(176, 85, 85, 0.63);
 }
 
 .about {
   background-color: rgba(176, 85, 85, 0.63);
 }
-
-.portfolio {
-  background-color: aquamarine;
-}
-
-.services {
-  background-color: darkorange;
-}
-
-.product {
-  background-color: darkblue;
-}
-
-.review {
-  background-color: darkseagreen;
-}
-
-.footer {
-  background-color: crimson;
-}
-
 img {
   width: 100px;
 }/*# sourceMappingURL=main.css.map */

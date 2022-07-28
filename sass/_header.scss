@@ -1,7 +1,7 @@
 .header {
   min-height: 150px;
 
-  background: $background-color-header;
+  background-color: $background-color-header;
   letter-spacing: 0.175em;
 }
 
@@ -26,7 +26,20 @@
   justify-content: space-between;
   align-items: center;
 
-  &__item {
+  // &__item {
+  // }
+
+  &__item:not(:last-child) {
+    margin-right: 63px;
+  }
+
+  &__icon {
+    fill: $color-main-light;
+
+    transition: fill 250ms linear;
+  }
+
+  &__link {
     display: inline-block;
 
     padding: 63px 0;
@@ -35,13 +48,17 @@
     font-size: 17px;
     line-height: 1.47;
     color: $color-main-light;
+
+    transition: color 250ms linear;
   }
 
-  &__item:not(:last-child) {
-    margin-right: 63px;
+  &__link:hover,
+  &__link:focus {
+    color: $color-hover;
   }
 
-  &__icon {
-    fill: $color-main-light;
+  &__link:hover &__icon,
+  &__link:focus &__icon {
+    fill: $color-hover;
   }
 }
