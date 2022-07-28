@@ -1,10 +1,14 @@
 .title {
   color: $color-main-dark;
   font-weight: 700;
-  font-size: 25px;
-  line-height: 1.52;
+  font-size: 32px;
+  line-height: 1.5;
 
   &--light {
     color: $color-main-light;
   }
+}
+
+.portfolio__title {
+  margin-right: auto;
 }
