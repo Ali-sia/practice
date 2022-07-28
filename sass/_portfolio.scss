@@ -16,6 +16,14 @@
     line-height: 1.5;
 
     border-radius: 9px;
+
+    transition: color 250ms linear, background-color 250ms linear;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: $color-hover-link-portfolio;
+    background-color: $color-hover;
   }
 
   &__text {
@@ -25,6 +33,13 @@
   }
 
   &__button {
+    display: block;
+  }
+
+  &__holder {
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
 }
 
@@ -32,9 +47,7 @@
   &__item {
     display: flex;
     align-items: center;
-  }
 
-  &__item:not(:last-child) {
     margin-bottom: 50px;
   }
 
