@@ -1,0 +1,22 @@
+.footer {
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  background-image: linear-gradient(
+    to bottom,
+    $background-color-footer 50%,
+    $background-color-main 50%
+  );
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer-list {
+  display: flex;
+  &__item {
+  }
+}
