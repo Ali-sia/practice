@@ -521,4 +521,42 @@ button {
   top: 0;
   right: 0;
   transform: translate(-20px, 20px);
+}
+
+.review {
+  text-align: center;
+  background-color: rgba(183, 76, 76, 0.35);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)), url(../image/bgi@1x-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .review {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)), url(../image/bgi@2x-min.jpg);
+  }
+}
+.review__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.12em;
+}
+.review__container {
+  position: relative;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.review__button {
+  position: absolute;
+}
+.review__button--right {
+  top: 0;
+  right: 0;
+  transform: translate(-15px, 60px);
+}
+.review__button--left {
+  bottom: 0;
+  left: 0;
+  transform: translate(15px, -60px);
 }/*# sourceMappingURL=main.css.map */
