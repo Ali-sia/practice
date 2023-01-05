@@ -1,2 +1,2 @@
 # practice
-Create resume without my information
+Create resume markup
